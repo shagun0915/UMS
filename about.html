@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #9a9a6f;
+        }
+        
+        html {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+        
+        .flex {
+            margin-bottom: 40px;
+            background-color: beige;
+            width: 100%;
+            height: 220px;
+            overflow: auto;
+        }
+        
+        .one {
+            margin-bottom: 100px;
+            float: left;
+        }
+        
+        .two {
+            float: left;
+            margin-left: 60px;
+        }
+        
+        .container {
+            padding: 0 16px;
+        }
+        
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .title {
+            color: grey;
+        }
+        
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        .button:hover {
+            background-color: #555;
+        }
+        
+        .bottom-container {
+            margin-top: 50px;
+            background-color: #02220c;
+            padding: 50px 0 20px;
+            text-align: center;
+        }
+        
+        a {
+            color: #f9fdfd;
+            margin: 10px 20px;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #73eaea;
+        }
+        
+        .footer-link {
+            margin-bottom: 20px;
+        }
+        
+        .copyright {
+            color: #f9f5f6;
+            margin: 40px 0;
+            font-size: 80%;
+        }
+        
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex">
+        <div class="one">
+            <img src="images/IGDTUW_logo.png" alt="logo">
+        </div>
+        <div class="two">
+            <h1>Indira Gandhi Delhi Technical University For Women(IGDTUW)</h1>
+            <h3>Kashmere Gate, Delhi - 110006</h3>
+            <h3>(An ISO 9001:2015 Certified University)</h3>
+        </div>
+    </div>
+    <h2 style="text-align:center">About Us</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="images/igdtuw.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2>Institute History</h2>
+                    <p>Indira Gandhi Delhi Technical University for Women (IGDTUW) was established by the Govt. NCT of Delhi in May, 2013 vide Delhi Act 09 of 2012, as a non-affiliating University to facilitate and promote studies, research, technology,
+                        innovation, incubation and extension work in emerging areas of professional education among women, with focus on engineering, technology, applied sciences, architecture and its allied areas with the objective to achieve excellence
+                        in these and related fields. Erstwhile Indira Gandhi Institute of Technology (IGIT) was established in 1998 by Directorate of Training and Technical Education, Govt. of NCT of Delhi as the first engineering college for women only.
+                        In 2002, the college became the first constituent college of Guru Gobind Singh Indraprastha University. Over the years erstwhile IGIT has significantly contributed to the growth of quality technical education in the country and
+                        has become not only one of the premier institutions of Delhi but as the most prestigious college of north India.
+                    </p>
+                    <p><button class="button">Know More</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="images/img5.jpg" alt="Mike" style="width:100%">
+                <div class="container">
+                    <h2>Vision & Mission</h2>
+                    <p>
+                        <ul>
+                            <li>To make India a Knowledge Society and Knowledge Economy by empowering the women of our country through education in Engineering, Science, Management and Technology.</li>
+                            <li>To become one of the top technical Universities in the country known for its value based, quality technical education supported with industry relevant research, with focus on environmental and social issues.</li>
+                            <li>To foster an environment for excellence in professional education and ensure active participation of women in the field of Engineering, Science, Management and Technology, while striking out a work-life balance.</li>
+                            <li>To start new professional courses for women in sun-rise disciplines and forge alliances with industry to impart industry relevant education.</li>
+                            <li>To emancipate women through pursuit of knowledge enabling them to gain equal status in society through realization of their rights and responsibilities</li>
+                            <li>To develop sustainable systems and state-of-the-art infrastructure to enable the Indian women to become the future leaders, managers, researchers and productive team players in the field of science, technology and management.</li>
+                        </ul>
+                    </p>
+                    <p><button class="button">Know More</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="images/vcmadam1.png" alt="John" style="width:100%">
+                <div class="container">
+                    <h2>Vice Chancellor</h2>
+                    <p class="title">Dr(Mrs).Amita Dev</p>
+                    <p>It feels great to be the wind beneath the wings of one of the top ranking Emerging Engineering Institutes of Technology in India. The devouring stride of IGDTUW, since its inception in 1998 as IGIT, has been exemplary, culminating
+                        in transforming itself into an icon for women empowerment. To be a vibrant part of this illustrious edifice of teaching and learning is certainly a matter of stupendous pride and a new-found privilege for me. IGDTUW has evolved
+                        to become a national flagship, research-led university with a mission to foster an environment for excellence in professional education and ensure active participation of women in the field of Engineering, Science, Management and
+                        Technology, thereby attempting to strike out a fine balance between world of work and life. The university vows to devise sustainable systems and state-of-the-art infrastructure to enable the Indian women to dawn the role of future
+                        leaders, managers, researchers and productive team players in the field of science, technology. The University offers a number of B.Tech, B.Arch, M.Tech and Ph.D programmes in faculty of Engineering and Technology. It also aims
+                        at teaching, training and elevating the students to an independent level where they can achieve higher level of excellence and professionalism.</p>
+                    <p><button class="button">Know More</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://github.com/">GitHub</a>
+        <p class="copyright">Copyright © 2020 Indira Gandhi Delhi Technichal University for Women. All Rights Reserved.</p>
+    </div>
+
+
+</body>
+
+</html>

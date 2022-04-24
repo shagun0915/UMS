@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .flex {
+            margin-bottom: 40px;
+            background-color: beige;
+            width: 100%;
+            height: 220px;
+            overflow: auto;
+        }
+        
+        .one {
+            margin-bottom: 100px;
+            float: left;
+        }
+        
+        .two {
+            float: left;
+            margin-left: 60px;
+        }
+        
+        .row {
+            margin: 8px -16px;
+        }
+        
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+        
+        .column {
+            float: left;
+            width: 25%;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+        
+        .bottom-container {
+            margin-top: 50px;
+            background-color: #02220c;
+            padding: 50px 0 20px;
+            text-align: center;
+        }
+        
+        a {
+            color: #f9fdfd;
+            margin: 10px 20px;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #73eaea;
+        }
+        
+        .footer-link {
+            margin-bottom: 20px;
+        }
+        
+        .copyright {
+            color: #f9f5f6;
+            margin: 40px 0;
+            font-size: 80%;
+        }
+        
+        @media screen and (max-width: 900px) {
+            .column {
+                width: 50%;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex">
+        <div class="one">
+            <img src="images/IGDTUW_logo.png" alt="logo">
+        </div>
+        <div class="two">
+            <h1>Indira Gandhi Delhi Technical University For Women(IGDTUW)</h1>
+            <h3>Kashmere Gate, Delhi - 110006</h3>
+            <h3>(An ISO 9001:2015 Certified University)</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="images/img1.jpeg" style="width:100%">
+                <h3>Smart India Hackathon 2022</h3>
+                <p>Internal Round will be conducted in the college premises. VENUE: SEMINAR HALL AND CONFERENCE HALL</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="images/img2.jpeg" style="width:100%">
+                <h3>Third Industry Institute Networking Meet and Alumni Meet on 23rd December 2021</h3>
+                <p>We are glad to announce that our University is conducting the Third Industry Institute Networking Meet and Alumni Meet on 23rd December 2021. We want to formally invite you for the event and appreciate your efforts as alumni of our university.
+                </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="images/img3.jpeg" style="width:100%">
+                <h3>Report of Induction Programme conducted for B.Tech Batch - 2021</h3>
+                <p>The event started with the alumnus address by Dr. Arunima Chhikara (MAE Batch 2005-2009), Assistant Professor of Business Analytics, School of Business, University of Kansas, USA. She shared her journey and gave important pieces of advice
+                    to the first year students.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="images/img4.jpeg" style="width:100%">
+                <h3>Summer Internship Programmes, 1st June to 13th Aug,2021</h3>
+                <p>Indira Gandhi Delhi Technical University for Women is offering under mentioned Summer Internship to the meritorious students and aspirant entrepreneurs in an online mode.</p>
+            </div>
+        </div>
+
+
+        <div class="content">
+            <img src="images/img5.jpg" style="width:100%">
+            <h3>Convocation</h3>
+            <p>Convocation ceremony celebrated for the batch 2021</p>
+
+        </div>
+
+
+    </div>
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://github.com/">GitHub</a>
+        <p class="copyright">Copyright © 2020 Indira Gandhi Delhi Technichal University for Women. All Rights Reserved.</p>
+    </div>
+
+</body>
+
+</html>
